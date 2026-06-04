@@ -1,0 +1,18 @@
+{
+  "name": "triviatology",
+  "version": "1.0.0",
+  "description": "Prototipo didáctico gamificado para estudiar semiología y síndromes psicopatológicos.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "psicología",
+    "semiología",
+    "trivia",
+    "educación"
+  ],
+  "author": "",
+  "license": "MIT"
+}
