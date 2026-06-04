@@ -4022,7 +4022,7 @@ function renderHome(isMobile) {
         <div>
           <p class="eyebrow">Progreso de conceptos</p>
           <div class="progress-number">${progressPercent()}%</div>
-          <p class="muted">${appState.studied.length} de ${conceptTotal()} conceptos estudiados</p>
+
           <div class="progress-bar" style="--value: ${progressPercent()}%"><div class="progress-fill"></div></div>
         </div>
         <div class="study-illustration">${brainLogo()}</div>
