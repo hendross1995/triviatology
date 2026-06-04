@@ -4,7 +4,7 @@ const path = require("path");
 
 const publicDir = path.join(__dirname, "public");
 const port = Number(process.env.PORT) || 3000;
-const host = process.env.HOST || "127.0.0.1";
+const host = process.env.HOST || "0.0.0.0";
 
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
